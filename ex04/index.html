@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="fav.ico" type="image/x-icon" />
+    <title>Meu Currículo</title>
+  </head>
+  <body>
+    <div class="firstDiv">
+      <div class="leftSide">
+        <div class="perfil">
+          <div class="img">
+            <img src="imgProfile.png" alt="Foto de Perfil" />
+          </div>
+          <h4>Pedro Silva de Barros</h4>
+          <button class="btn">Imprimir pdf</button>
+        </div>
+
+        <div class="leftItems">
+          <ul>
+            <li>
+              <span class="text">Brasileiro, solteiro, 19 anos</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="leftItems">
+          <h4 class="title">Contato:</h4>
+          <ul>
+            <li>
+              <span class="text">pedrosilvadebarros@outlook.com</span>
+            </li>
+            <li>
+              <span class="text">(81) 993809906</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="leftItems">
+          <h4 class="title">Formação:</h4>
+          <ul>
+            <li>
+              <span class="text">Ensino médio completo</span>
+              <ul>
+                <li>Colégio GGE</li>
+              </ul>
+            </li>
+            <li>
+              Cursando nível superior em Ciência da Computação, 5° Período
+              <ul>
+                <li>Universidade Católica de Pernambuco</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="leftItems">
+          <h4 class="tittle">Endereço:</h4>
+          <ul>
+            <li>Rua Jorge de Lima, Imbiribeira - Recife-PE</li>
+            <li>CEP: 51160-070</li>
+          </ul>
+        </div>
+
+        <div class="leftItems">
+          <h4>Idiomas:</h4>
+          <ul>
+            <li>Português</li>
+            Inglês
+          </ul>
+        </div>
+      </div>
+
+      <div class="rightSide">
+        <div class="rightItems">
+          <h3 class="title">Sobre mim:</h3>
+          <p>
+            Sou um adolescente de 19 anos, moro em Recife com os meus pais, além
+            de adorar programar na frente de um computador, gosto muito de
+            praticar atividades físicas e costumo também sair com meus amigos,
+            tal qual fazer novas amizades. E neste momento, meu interesse maior
+            seria conhecer as diversas áras da computação, pois são vários ramos
+            incríveis, que fica difícil de fazer uma escolha. Portanto,
+            adquirindo uma experiência profissional eu posso alcançar os meus
+            objetivos e por o meu conhecimento em prática.
+          </p>
+        </div>
+
+        <div class="rightItems">
+          <h3 class="title">Objetivo:</h3>
+          <p>
+            Estagiar na área de Ciência da Computação, para adquirir experiência
+            para desenvolver as minhas habilidades, e assim, colaborar para o
+            desenvolvimento da empresa.
+          </p>
+        </div>
+
+        <div class="rightItems">
+          <h3 class="title">Habilidades:</h3>
+          <div class="skills">
+            <h4>Java</h4>
+            <div class="porcent">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <h4>Python</h4>
+            <div class="porcent">
+              <div style="width: 75%"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <h4>HTML/CSS</h4>
+            <div class="porcent">
+              <div style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rightItems">
+          <h3 class="title">Redes Sociais:</h3>
+          <div class="imgRedes">
+            <a
+              href="https://www.instagram.com/pedro_barros001/?hl=pt-br"
+              target="_blank"
+            >
+              <img
+                src="https://www.designbust.com/download/625/png/instagram_logo_transparent256.png"
+              />
+            </a>
+
+            <a href="https://github.com/PedroSilvaBarros" target="_blank">
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-256/github-3215409-2673827.png"
+              />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/pedro-barros-1550231a6/"
+              target="_blank"
+            >
+              <img
+                src="https://logospng.org/download/linkedin/logo-linkedin-icon-256.png"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let btn = document.querySelector("button");
+      btn.onclick = () => {
+        window.print();
+      };
+    </script>
+  </body>
+</html>
